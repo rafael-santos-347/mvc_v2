@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>PHP com React</title>
+</head>
+<body >
+    <noscript>É necesário habilitar o javascript !</noscript>
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+ /*      Buscando API com JSON
+
+ onload="getJson()"
+ 
+    async function getJson(){
+           const resposta = await fetch('http://localhost/projetos/react_php/backend/index.php');
+           const dados = await resposta.json();
+           console.log(dados);
+        }
+        */
+    </script>
+    <script type="text/babel" src="./componentes/Header.jsx"></script>
+    <script type="text/babel" src="./componentes/Card.jsx"></script>
+    <script type="text/babel" src="./componentes/App.jsx"></script>
+    <script type="text/babel" src="./componentes/index.js"></script>
+    
+</body>
+</html>
